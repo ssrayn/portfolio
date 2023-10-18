@@ -1,0 +1,161 @@
+body{
+	font-family: Verdana, Calibri, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(fondecran.jpg);
+}
+nav > ul{
+	margin: 0px;
+	padding: 0px;
+}
+nav li{
+	list-style-type: none;
+}
+nav > ul > li{
+	float: left;
+}
+.submenu{
+	display: none;
+}
+nav input[type=checkbox]{
+	display: none;
+}
+.menu-mobile{
+	display: none;
+}
+nav{
+	width: 100%;
+	background-color: #424558;
+}
+nav > ul > li{
+	float: left;
+	position: relative;
+}
+nav > ul::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+nav > ul > li > a{
+	padding:20px 30px;
+	color: #FFF;
+}
+nav li:hover.submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index:10000;
+}
+.submenu li{
+border-bottom: 1px solid #CCC;
+}
+.submenu li a{
+	padding: 15px 30px;
+	font-size: 13px;
+	color: #222538
+	width: 270px;
+}
+.menu-htmlcss:hover{
+	border-top: 5px solid #e44d26;
+	background-color: rgba(228, 77, 38, 0.15);
+}
+.menu-js:hover{
+	border-top: 5px solid #0070bb;
+	background-color: rgba(000, 112, 192, 0.15);
+}
+.menu-bd:hover{
+	border-top: 5px solid #f1dc4f;
+	background-color: rgba(241, 211, 79, 0.15);
+}
+.menu-missions:hover{
+	border-top: 5px solid #f1dc4f;
+	background-color: rgba(241, 211, 79, 0.15);
+}
+.menu-certifications:hover{
+	border-top: 5px solid #f1dc4f;
+	background-color: rgba(241, 211, 79, 0.15);
+}
+.menu-php:hover{
+	border-top: 5px solid #f1dc4f;
+	background-color: rgba(241, 211, 79, 0.15);
+}
+.menu-contact:hover{
+	border-top: 5px solid #BBB;
+	background-color: rgba(220, 220, 220, 0.15);
+}
+nav > ul > li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+.menu-htmlcss.submenu{
+	background-color: rgb(230, 100, 40);
+}
+.menu-js.submenu{
+	background-color: rgb(000, 160, 240);
+}
+.menu-bd.submenu{
+	background-color: rgb(251, 216, 99);
+}
+.menu-php.submenu{
+	background-color: rgb(251, 216, 99);
+}
+.menu-missions.submenu{
+	background-color: rgb(251, 216, 99);
+}
+.menu-certifications.submenu{
+	background-color: rgb(251, 216, 99);
+}
+.submenu li:hover a{
+	color: #EEE;
+	font-weight: bold;
+}
+.menu-htmlcss.submenu li:hover{
+	background-color: rgb(210, 77, 60);
+}
+.menu-js.submenu li:hover{
+	background-color: rgb(000, 115, 200);
+}
+.menu-bd.submenu li:hover{
+	background-color: rgb(200, 165, 75);
+}
+.menu-php.submenu li:hover{
+	background-color: rgb(210, 77, 60);
+}
+.menu-missions.submenu li:hover{
+	background-color: rgb(210, 77, 60);
+}
+.menu-certifications.submenu li:hover{
+	background-color: rgb(210, 77, 60);
+}
+nav input[type=checkbox]:checked~ul{
+	display: block;
+}
+@media screen and (max-width: 680px){
+	.menu-mobile {
+		display: block;
+		color: #FFF;
+		background-color: rgba(29, 197, 151, 0.97);
+		text-align: center;
+		padding: 12px 0;
+	}
+	nav ul{
+		display: none;
+	}
+}
+    nav ul li, navv ul li a {
+    	width: 100%;
+    	text-align: center;
+    }
+    nav ul li a, nav ul li:hover a{
+    	padding: 10px 0px 10px 0px
+    }
+    nav li:hover .submenu{
+    	display: block;
+    	position: static;
+    }
+}

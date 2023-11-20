@@ -7,7 +7,7 @@ function releve() {
     var e= document.getElementById("coef2").value;
     var f= document.getElementById("coef3").value;
 
-    var s= Number(a)*Number(d)+Number(b)*Number(e)+Number(c)+Number(f);
+    var s= Number(a)*Number(d)+Number(b)*Number(e)+Number(c)*Number(f);
     var t= Number(s)/Number(d)+Number(e)+Number(f)
 
     moyenne.value=t;

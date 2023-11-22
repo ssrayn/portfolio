@@ -157,47 +157,32 @@ function function16() {
 
 function function17() {
 	let html = '<ul>';
-	let nalea = 10;
-	for(let i = 0;i < nalea;i++) {
-		let tmp = Math.floor(Math.random() * 11);
-		if (tmp == 10) {
-			console.log ('Le nombre 10 fait parti du tirage.');
-		}
-		html = html + '<li>' + tmp + '</li>';
-	}
-	html = html + '</ul>';
-	document.body.innerHTML = html;
+    let nalea = 10;
+    for(let i = 0;i < nalea;i++) {
+        html = html + '<li>' + Math.floor(Math.random() * 100) + '</li>';
+    }
+    html = html + '</ul>';
+    document.body.innerHTML = html;
 }
 
 function function18() {
 	let html = '<ul>';
-	let nalea = 10;
-	let nalea 10 = 0;
-	for(let i = 0;i < nalea;i++) {
-		let tmp = Math.floor(Math.random() * 11);
-		if (tmp == 10) {
-			nalea10++
-		}
-		html = html + '<li>' + tmp + '</li>';
-	}
-	html = html + '</ul>';
-	html = html + '<p>Il y a eu' + nalea10 + 'tirage de 10.</p>'
-	document.body.innerHTML = html;
+    let nalea = 10;
+    for(let i = 0;i < nalea;i++) {
+        let tmp = Math.floor(Math.random() * 11);
+        if(tmp == 10) {
+            console.log('Le nombre 10 fait parti du tirage.');
+        }
+        html = html + '<li>' + tmp + '</li>';
+    }
+    html = html + '</ul>';
+    document.body.innerHTML = html;
 }
 
 function function19() {
-	let html = '<ul>';
-	let nalea = 10;
-	let nalea 10 = 0;
-	for(let i = 0;i < nalea;i++) {
-		let tmp = Math.floor(Math.random() * 11);
-		if (tmp == 10) {
-			nalea10++
-		}
-		html = html + '<li>' + tmp + '</li>';
-	}
-	html = html + '</ul>';
-	html = html + '<p>Il y a eu' + nalea10 + 'tirage de 10.</p>'
-	document.body.innerHTML = html;
+	let r = Math.floor(Math.random() * 256);
+    let g = Math.floor(Math.random() * 256);
+    let b = Math.floor(Math.random() * 256);
+    let color = "rgb(" + r + ", " + g + ", " + b + ")";
+    document.body.style.background = color;
 }
-	document.body.style.background = 'red';

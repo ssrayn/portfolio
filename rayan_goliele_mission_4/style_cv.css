@@ -1,0 +1,65 @@
+div {
+	background-color: 
+}
+section.a{
+border : 7px solid black;
+border-radius: 10px;
+padding-bottom: 2%;
+padding-left: 1%;
+background-color: beige;
+}
+.date{
+	float: left;
+	padding-right: 170px;
+	font-weight: bold;
+	background-color: beige;
+	}
+
+section.b{
+border : 7px solid black;
+border-radius: 10px;
+padding-bottom: 2%;
+padding-left: 1%;
+background-color: beige;
+}
+.date2{
+	float: left;
+	padding-right: 170px;
+	font-weight: bold;
+	background-color: beige;
+	}
+
+section.c{
+border : 7px solid black;
+border-radius: 10px;
+padding-bottom: 2%;
+padding-left: 1%;
+background-color: beige;
+background-color: beige;
+}
+.langue{
+	float: left;
+	padding-right: 150px;
+	font-weight: bold;
+	
+	}
+section.d{
+border : 7px solid black;
+border-radius: 10px;
+padding-bottom: 2%;
+padding-left: 1%;
+background-color: beige;
+}
+.loisirs{
+	float: left;
+	padding-right: 185px;
+	font-weight: bold;
+	
+	}
+.info{
+	border : 7px solid black;
+	border-radius: 10px;
+	padding-bottom: 2%;
+    padding-left: 1%;
+    background-color: beige;
+}
